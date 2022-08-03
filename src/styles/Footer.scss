@@ -1,0 +1,24 @@
+$first-color: #0C0032;
+$second-color: #190061;
+$third-color: #240090;
+$fourth-color: #3500D3;
+$fifth-color: #282828;
+$sixth-color: #fff;
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    color: $third-color;
+  }
+}

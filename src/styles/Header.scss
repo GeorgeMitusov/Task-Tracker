@@ -1,0 +1,22 @@
+$first-color: #0C0032;
+$second-color: #190061;
+$third-color: #240090;
+$fourth-color: #3500D3;
+$fifth-color: #282828;
+$sixth-color: #fff;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  
+  h1 {
+    text-transform: uppercase;
+    color: $sixth-color;
+    text-shadow: 2.5px 2.5px 2.5px $fourth-color;
+    font-size: 2.7em;
+    letter-spacing: .1em;
+  }
+}
+

@@ -1,0 +1,21 @@
+$first-color: #0C0032;
+$second-color: #190061;
+$third-color: #240090;
+$fourth-color: #3500D3;
+$fifth-color: #282828;
+$sixth-color: #fff;
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    color: $third-color;
+  }
+}

@@ -1,0 +1,34 @@
+$first-color: #0C0032;
+$second-color: #190061;
+$third-color: #240090;
+$fourth-color: #3500D3;
+$fifth-color: #282828;
+$sixth-color: #fff;
+
+.switch {
+    width: 40%;
+    height: 30px;
+    background-color: $third-color;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .switch[data-isOn="true"] {
+    justify-content: flex-end;
+    background-color: $fourth-color;
+
+    .handle {
+        background-color: $third-color;
+    }
+  }
+  
+  .handle {
+    width: 55%;
+    height: 20px;
+    background-color: $fourth-color;
+    border-radius: 40px;
+  }
+  

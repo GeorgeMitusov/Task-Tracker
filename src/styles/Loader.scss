@@ -1,0 +1,14 @@
+$first-color: #0C0032;
+$second-color: #190061;
+$third-color: #240090;
+$fourth-color: #3500D3;
+$fifth-color: #282828;
+$sixth-color: #fff;
+
+.loader {
+    width: 15px;
+    height: 15px;
+    margin: 40px auto;
+    border-radius: 50%;
+    background-color: $fourth-color;
+}

@@ -1,0 +1,132 @@
+$first-color: #0C0032;
+$second-color: #190061;
+$third-color: #240090;
+$fourth-color: #3500D3;
+$fifth-color: #282828;
+$sixth-color: #fff;
+
+.takeDetails {
+  background: $fourth-color;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: .3s ease-out;
+
+  .link-wrap {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .link-back {
+      color: $second-color;
+      transition: .5s ease-out;
+    }
+
+    .link-back:hover, .link-back:active {
+      color: $fourth-color;
+    }
+  }
+
+  .details-wrap {
+    width: 90%;
+  
+    .detail-name-wrap {
+      padding: 5px;
+
+      .input-wrap {
+        width: 90%; 
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 2px;
+
+        .input {
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+          margin-bottom: 5px;
+          width: 100%;
+          box-sizing: border-box;
+          color: #2C3E50;
+          font-size: 13px;
+        }
+
+        .input:focus {
+          color: white;
+          background-color: #1781b2;
+        }
+      }
+
+      .btn-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        padding: 2px;
+        cursor: pointer;
+
+        .text-btn {
+          color: $second-color;
+          transition: .7s ease-out;
+        }
+    
+        .text-btn:hover, .text-btn:active {
+          color: $fourth-color;
+          transform: scale(1.3);
+        }
+      }
+    }
+  
+    .detail-day-wrap {
+      padding: 5px;
+
+      .input-wrap {
+        width: 90%; 
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 2px;
+
+        .input {
+          padding: 10px;
+          border: 1px solid $sixth-color;
+          border-radius: 3px;
+          margin-bottom: 5px;
+          width: 100%;
+          box-sizing: border-box;
+          font-size: 13px;
+        }
+        
+      }
+
+      .btn-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        padding: 2px;
+        cursor: pointer;
+
+        .day-btn {
+          color: $second-color;
+          transition: .7s ease-out;
+        }
+    
+        .day-btn:hover, .day-btn:active {
+          color: $fourth-color;
+          transform: scale(1.3);
+        }
+      }
+    }
+   
+  }
+}
+
+.takeDetails:hover .link-back {
+  color: $fourth-color;
+} 
+
+.takeDetails:hover .text-btn {
+  color: $sixth-color;
+} 
