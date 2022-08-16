@@ -9,6 +9,9 @@ import Background from './components/Background';
 
 import './styles/App.scss'; 
 
+//npm run server
+// npm start
+
 const App = () => {
   
   const [ tasks, setTasks ] = useState([]);
